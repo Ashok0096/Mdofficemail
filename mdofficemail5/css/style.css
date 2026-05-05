@@ -605,7 +605,7 @@ background: var(--bs-secondary);
 
 
 .newsletter {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-3.jpg) left center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/hero-carousel/hero-carousel-4.jpg) left center no-repeat;
     background-size: cover;
 }
 
