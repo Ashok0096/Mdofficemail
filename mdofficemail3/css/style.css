@@ -126,7 +126,7 @@ p {
 }
 
 .padding_top {
-    padding-top: 7.5rem;
+    padding-top: 5.5rem;
 }
 
 .padding_bottom {
@@ -3049,7 +3049,7 @@ a.dropdown-toggle::after {
 .reset-header {
     background: url(../images/bg-reset-header.jpg) no-repeat;
 }
-
+.fw-bpld{ font-weight: bold;}
 .testimonial-bg {
     background: url(../images/website/carousel-1.jpg) no-repeat;
 }
@@ -3299,6 +3299,7 @@ iframe {
 .process-wrapp li {
     padding: 70px 15px 0 15px;
     display: table-cell;
+        min-width: 280px;
 }
 
 .process-wrapp li:hover {
@@ -3313,6 +3314,7 @@ iframe {
     font-size: 28px;
     font-weight: 600;
     color: #fff;
+        background: #26313c;
 }
 
 .process-wrapp li>.pro-step,
@@ -3387,10 +3389,10 @@ iframe {
 
 .process-wrapp li::before,
 .process-wrapp li::after {
-    height: 1px;
+ height: 1px;
     top: 115px;
     background: rgba(255, 255, 255, .5);
-    width: 30%;
+    width: 35%;
     z-index: -1;
     margin: 0;
 }
@@ -4973,6 +4975,7 @@ ul.rounded li::before{
 .cart_table table {
     margin-bottom: 0;
 }
+.border-top-1{ border-top: solid 1px #818181;}
 
 .border-radius {
     -webkit-border-radius: 10px;
@@ -5506,7 +5509,28 @@ body:not(.rtl-layout) .readmore {
     font-size: 13px;
 }
 
+.card .icon {
+  font-size: 3rem;
+  color: lightseagreen;
+}
 
+.card-text {
+  color: gray;
+}
+
+.card {
+  transition: all 0.5s;
+}
+
+.card:hover {
+  background-image:linear-gradient(to right, rgb(81, 146, 225) 0%, rgb(67 165 222) 21%, rgb(36 205 214) 80%);     transform: translate(-0%, -3%) scale(1);
+  color: #fff;
+}
+
+.card:hover .icon,
+.card:hover .card-text {
+  color: #fff;
+}
 /*map */
 
 .full-map {
@@ -6247,14 +6271,16 @@ ul.count_down.white li p:nth-child(2) {
 
 
 /* ----- Pricing ends ----- */
-
-
-/*----- Footer -----*/
-
-.footer_logo {
-    width: 90px;
+.container-fluid.copyright.py-4 {
+    background: #ffffff;
 }
-
+/*----- Footer -----*/
+.footer .footer-item a {
+    line-height: 35px;
+    color: var(--bs-body);
+    transition: 0.5s;
+}
+.footer_panel a{ color: #fff !important;     margin-bottom: 5px;}
 .footer_logo,
 .footer_logo>img,
 .readmorebtn,
