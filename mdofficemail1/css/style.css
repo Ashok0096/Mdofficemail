@@ -225,6 +225,7 @@ color: rgb(18, 192, 235);
     float: left;
     position: relative;
     z-index: 9;
+    width: 100%;
 }
 
 .reimagine-s::after {
@@ -261,7 +262,7 @@ color: rgb(18, 192, 235);
     color: #777;
     font-size: 16px;
   }
-
+footer a{ color: #fff;}
 @media (max-width: 575.98px) { 
     
 }
@@ -271,7 +272,18 @@ color: rgb(18, 192, 235);
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    
+ .three-convenient-s .box-three-s{ width: 100%;} 
+ .three-convenient-s .shape {
+          height: 150px;
+        width: 100%;
+        background-color: #d7d7d7;
+        margin-left: 0px;
+        position: relative;
+        top: -50px;
+        box-shadow: 0 2px 15px #afa4a4;
+        transform: rotate(25deg);
+        left: 20%;
+}  
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
