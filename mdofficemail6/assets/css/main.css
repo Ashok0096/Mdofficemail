@@ -103,8 +103,9 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   font-family: var(--default-font);
+  /* background:linear-gradient(to bottom, #0672bd, #ffffff); */
 }
 
 a {
@@ -201,9 +202,12 @@ h6 {
 .header .logo img {
 
   margin-right: 8px;
-  background: var(--secondary-color);
+  /* background: var(--secondary-color); */
   width: 80%;
 }
+.index-page.scrolled .header .logo img{
+  background: var(--secondary-color);
+ }
 
 .header .logo h1 {
   font-size: 32px;
@@ -322,7 +326,7 @@ h6 {
     display: block;
     position: absolute;
     visibility: hidden;
-    right: 14px;
+    right: 0px;
     top: 130%;
     opacity: 0;
     transition: 0.3s;
@@ -787,7 +791,7 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   padding: 60px 0px 0px 0px;
   scroll-margin-top: 80px;
   overflow: clip;
@@ -866,12 +870,7 @@ section,
   position: absolute;
   inset: 0;
   z-index: 2;
-    /* background: linear-gradient(
-    to bottom,
-    rgba(6, 114, 189, 1) 0%,
-    rgba(6, 114, 189, 0.3) 50%,
-    #ffffff 100%
-); */
+     background:linear-gradient(to bottom, rgba(6, 114, 189, 1) -20%, rgba(6, 114, 189, 0.1) 30%, #ffffff 100%); 
 
 }
 
@@ -1119,7 +1118,7 @@ section,
 
 .call-to-action:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  background: color-mix(in srgb, #ffffff, transparent 20%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1150,8 +1149,8 @@ section,
   border-radius: 5px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid var(--default-color);
-  color: var(--default-color);
+  border: 2px solid var(--dark-color);
+  color: var(--dark-color);
 }
 
 .call-to-action .cta-btn:hover {
@@ -1669,8 +1668,13 @@ p{ font-size: 14px;}
     transform: translateX(4px);
   }
 
-
-
+.hero-gradient-alt {
+  background: linear-gradient(180deg, #2196D8 0%, #0B3D5C 100%);
+}
+body.index-page.scrolled .top-header {
+    background: var(--secondary-color);
+    padding-bottom: 5px;
+}
 
 
 
@@ -2276,7 +2280,7 @@ p{ font-size: 14px;}
 # Starter Section Section
 --------------------------------------------------------------*/
 .top-header{
-    background: var(--secondary-color);
+    /* background: var(--secondary-color); */
 
     padding-bottom: 5px;
 }
