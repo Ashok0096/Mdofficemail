@@ -206,7 +206,7 @@ h6 {
   width: 80%;
 }
 .index-page.scrolled .header .logo img{
-  background: var(--secondary-color);
+  /* background: var(--secondary-color); */
  }
 
 .header .logo h1 {
@@ -267,7 +267,7 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color:rgb(255 255 255);
+  --background-color:rgb(6 114 189);
 }
 
 /*--------------------------------------------------------------
@@ -1220,7 +1220,7 @@ header#header {
 }
 
 .dropdown ul li:hover a{ color: #fff;}
-.index-page.scrolled header .navmenu a, .index-page.scrolled .header .navmenu a:focus{ color: #000000;}
+.index-page.scrolled header .navmenu a, .index-page.scrolled .header .navmenu a:focus{ color: #fff;}
 
 .feature .feature-item {
     display: flex;
