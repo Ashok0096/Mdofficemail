@@ -103,8 +103,8 @@
     border-bottom: 1px solid var(--line-navy); list-style: none;
   }
   .sub-nav-mdo .sub-nav-link{
-    font-family: var(--font-mono);
-    font-size: 16px;
+   
+    font-size: 14px;
   
     color: #fff;
     padding: 0.15rem 0;
